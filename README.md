@@ -100,6 +100,9 @@ Printify 3D is a web app designed to make 3D printers accessible over a network,
 
 
 ## Screenshoot
+<img src="https://github.com/0xFreddox/Printify/blob/main/screenshoot/1.png">
+<img src="https://github.com/0xFreddox/Printify/blob/main/screenshoot/2.png">
+<img src="https://github.com/0xFreddox/Printify/blob/main/screenshoot/3.png">
 
 
 
