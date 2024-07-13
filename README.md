@@ -5,8 +5,6 @@ Printify 3D is a web app designed to make 3D printers accessible over a network,
 ## Main Features ✨
 
 - **Remote Access**: Make your 3D printer accessible over a local network.
-- **Web Interface**: Manage and monitor your 3D printer via a user-friendly web interface.
-- **No Internet Required**: Operates entirely within your local network without needing an internet connection.
 - **Simple Setup**: Easy configuration process using a Raspberry Pi Zero W and Node.js.
 
 ## Prerequisites 🛠️
