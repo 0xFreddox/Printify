@@ -1,15 +1,15 @@
-# Printify 3D Web-App
+# Printify 3D Web-App 🌐🖨️
 
 Printify 3D is a web app designed to make 3D printers accessible over a network, even without an internet connection. This solution involves configuring a Raspberry Pi Zero W to act as a USB device and running this web app.
 
-## Main Features
+## Main Features ✨
 
 - **Remote Access**: Make your 3D printer accessible over a local network.
 - **Web Interface**: Manage and monitor your 3D printer via a user-friendly web interface.
 - **No Internet Required**: Operates entirely within your local network without needing an internet connection.
 - **Simple Setup**: Easy configuration process using a Raspberry Pi Zero W and Node.js.
 
-## Prerequisites
+## Prerequisites 🛠️
 
 - **Hardware**: 
   - Raspberry Pi Zero W
@@ -18,9 +18,9 @@ Printify 3D is a web app designed to make 3D printers accessible over a network,
 - **Software**:
   - Node.js installed on the Raspberry Pi
 
-## Setup Guide
+## Setup Guide 📖
 
-### Step 1: Configure Raspberry Pi Zero W as USB
+### Step 1: Configure Raspberry Pi Zero W as USB 🔌
 
 1. **Flash Raspbian OS**:
    - Download and flash the Raspbian OS onto your Raspberry Pi Zero W.
@@ -46,7 +46,7 @@ Printify 3D is a web app designed to make 3D printers accessible over a network,
      }
      ```
 
-### Step 2: Install Node.js on Raspberry Pi
+### Step 2: Install Node.js on Raspberry Pi 🚀
 
 1. **Connect to Raspberry Pi**:
    - Connect to your Raspberry Pi via SSH:
@@ -64,7 +64,7 @@ Printify 3D is a web app designed to make 3D printers accessible over a network,
      sudo apt install -y nodejs npm
      ```
 
-### Step 3: Setup Printify 3D Web-App
+### Step 3: Setup Printify 3D Web-App 🖥️
 
 1. **Clone the Repository**:
    - Navigate to your desired directory and clone this repository:
@@ -88,7 +88,7 @@ Printify 3D is a web app designed to make 3D printers accessible over a network,
      npm start
      ```
 
-### Step 4: Access the Web Interface
+### Step 4: Access the Web Interface 🌐
 
 1. **Login**:
    - Open a web browser and navigate to `http://raspberrypi.local:3000`.
@@ -99,10 +99,10 @@ Printify 3D is a web app designed to make 3D printers accessible over a network,
 2. **Configure and Manage**:
    - Use the web interface to configure and manage your 3D printer.
 
-## Contributing
+## Contributing 🤝
 
 We welcome contributions! Please fork the repository and submit pull requests for any enhancements or bug fixes.
 
-## License
+## License 📄
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
