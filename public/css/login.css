@@ -1,0 +1,102 @@
+body {
+    font-family: 'VT323', monospace;
+    background-color: rgb(87, 26, 87);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.input-container {
+    margin: 15px 0;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #ffffff; /* Cambiato il colore del testo a blu */
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #212529;
+    width: 95%;
+    padding: 10px;
+    border: none;
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+    outline: none;
+}
+
+button {
+    background-color: rgb(40, 93, 208); /* Cambiato il colore di sfondo a blu */
+    color: #fff;
+    border:none;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 1em;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-family: 'VT323', monospace;
+
+
+}
+
+
+button:hover {
+    background-color: #15467d; /* Cambiato il colore di sfondo al passaggio del mouse */
+    -webkit-box-shadow: 0px 5px 11px 5px rgba(0,0,0,0.77); 
+    box-shadow: 0px 5px 11px 5px rgba(0,0,0,0.77);
+
+  
+}
+
+#metaBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Assicura che il canvas sia dietro gli altri elementi */
+}
+
+h2{
+    color: #ffffff;
+}
+
+.container-login,
+.container-register {
+    background: rgb(50, 50, 50);
+    border-radius: 2%;
+    -webkit-box-shadow: -1px 1px 29px 5px #181818; 
+    box-shadow: -1px 1px 29px 5px #000000;
+    padding: 20px; /* Aumentato il padding */
+    width: 30%;
+}
+
+.container-login {
+    height: 40%;
+}
+
+.container-register {
+    height: 30%;
+}
+
+.register-form,
+.login-form {
+    text-align: center;
+    color: #fff;
+}
+
+.register-form h2,
+.login-form h2 {
+    font-size: 1.5em;
+}

@@ -1,0 +1,44 @@
+.box_upload {
+    width: 600px;
+    height: 600px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.box_upload:hover {
+    background-color: #c5c5c5;
+}
+
+
+.box_upload img {
+    max-width: 50%;
+    height: auto;
+}
+
+.box_upload p {
+    font-family: 'VT323', monospace;
+    font-size: 2pc;
+}
+
+.box_upload button {
+    font-family: 'VT323', monospace;
+    font-size: 2pc;
+    background-color: #8338ec;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.box_upload button:hover {
+    background-color: #2e2d2d;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Benvenuto al Servizio di Upload</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/upload-page.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="js/upload.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</head>
+<body>
+    <div data-aos="fade-right">
+    <div class="navbar">
+        <img src="img/print_3d.png" id="logo">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/upload">Upload 3D</a></li>
+            <li><a href="/view" style="pointer-events: none; color: rgb(82, 82, 82);" >View Model</a></li> 
+
+        </ul>
+        </div>
+    </div>
+    <div data-aos="fade-down" data-aos-delay="500">
+        <div class="box_upload">
+            <img src="/img/arrow_upload-1.svg">
+            <button id="btnUpload">UPLOAD</button>
+            <input type="file" id="fileInput" style="display: none;">
+            <p>you can only upload .stl files</p>
+        </div>
+  </div>
+    <p id="logUpload"></p>
+    <script>AOS.init();</script>
+</body> 
+</html>

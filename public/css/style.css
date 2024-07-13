@@ -1,0 +1,67 @@
+/* Reset del CSS di base */
+body {
+    background: #2e2d2d;
+    font-family: 'VT323', monospace;
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Stili per la barra di navigazione */
+.navbar {
+    background-color: #8338ec;
+    padding: 30px 0;
+    display: flex;
+    justify-content: flex-start; /* Spazio tra il logo e le opzioni */
+    align-items: center;
+    border-color: #2e2d2d;
+}
+
+
+/* Stili per ul (lista delle opzioni) */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Imposta la visualizzazione in linea orizzontale */
+}
+
+/* Stili per ciascun elemento della lista (opzione) */
+.navbar li {
+    margin-right: 20px; /* Riduci il margine tra le opzioni */
+}
+
+/* Altri stili rimasti invariati */
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'VT323', monospace;
+    font-size: 2pc;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.navbar a:hover {
+    color: #2e2d2d;
+    transform: scale(1.1);
+}
+
+
+.box-files{
+    max-width: 600px;
+    margin: 20px auto;
+    margin-left: 10%;
+    background-color: rebeccapurple;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.box-files ul {
+    list-style: none;
+
+}
+.box-files a{
+    text-decoration: none;
+    color: white;
+}
