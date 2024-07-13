@@ -1,4 +1,4 @@
-# Printify 3D Web-App 🌐🖨️
+# Printify 3D Web-App 🌐🖨️ (Working Progress...)
 
 Printify 3D is a web app designed to make 3D printers accessible over a network, even without an internet connection. This solution involves configuring a Raspberry Pi Zero W to act as a USB device and running this web app.
 
