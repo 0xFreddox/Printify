@@ -85,7 +85,7 @@ Printify 3D is a web app designed to make 3D printers accessible over a network,
 3. **Start the Web-App**:
    - Start the application:
      ```
-     npm start
+     node app.js
      ```
 
 ### Step 4: Access the Web Interface 🌐
