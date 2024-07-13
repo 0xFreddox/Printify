@@ -97,6 +97,13 @@ Printify 3D is a web app designed to make 3D printers accessible over a network,
 2. **Configure and Manage**:
    - Use the web interface to configure and manage your 3D printer.
 
+
+
+## Screenshoot
+
+
+
+
 ## Contributing 🤝
 
 We welcome contributions! Please fork the repository and submit pull requests for any enhancements or bug fixes.
